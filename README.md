@@ -1,5 +1,5 @@
 # Boat anchor
-Very simple and basic boats anchor script. While anchored, boat will drift back and forth in anchored place depending on location where is was anchored.
+Very simple and basic boats anchor script. While anchored, boat will drift back and forth in anchored place depending on location where it was anchored.
 If force exceeds, anchor might brake, for example if you start driving anchor will brake.
 
 ### Support
