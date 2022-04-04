@@ -91,5 +91,5 @@ exports('CanAnchor', function(vehicle)
 end)
 
 exports('IsAnchored', function(vehicle)
-    return client.vehicles[vehicle]
+    return (client.vehicles[vehicle] and DecorGetBool(vehicle, 'isAnchored'))
 end)
