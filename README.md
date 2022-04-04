@@ -3,7 +3,7 @@ Very simple and basic boats anchor script. While anchored, boat will drift back 
 If force exceeds, anchor might brake, for example if you start driving anchor will brake.
 
 ### Support
-Any issues / Bugs or Suggestions has to be reported in this repository issues. Please refer to: [Issues](https://github.com/FelisDevelopment/fd_anchor_/issues)
+Any issues / Bugs or Suggestions has to be reported in this repository issues. Please refer to: [Issues](https://github.com/FelisDevelopment/fd_anchor/issues)
 
 # Config
 
