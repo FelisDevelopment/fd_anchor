@@ -28,8 +28,6 @@ All of the configs here are set using `setr [anchor:configOption] [boolean]`
 | ToggleAnchor    | Toggles boat anchor |
 #### Getters
 
-The majority of setters are done through player states, while a small
-
 
 | State Bag     | Description                                                  | Parameter(s) | Return Type  |
 |---------------|--------------------------------------------------------------|--------------|--------------|
