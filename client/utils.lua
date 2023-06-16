@@ -3,11 +3,6 @@ function canAnchor(vehicle)
         return false
     end
 
-    if GetEntitySpeed(vehicle) > tonumber(shared.maxSpeed) then
-        onTooFast(vehicle)
-        return false
-    end
-
     local model = GetEntityModel(vehicle)
 
     if not model or model == 0 then
@@ -15,6 +10,11 @@ function canAnchor(vehicle)
     end
 
     if not (IsThisModelABoat(model) or IsThisModelAJetski(model) or IsThisModelAnAmphibiousCar(model) or IsThisModelAnAmphibiousQuadbike(model)) then
+        return false
+    end
+
+    if GetEntitySpeed(vehicle) > tonumber(shared.maxSpeed) then
+        onTooFast(vehicle)
         return false
     end
 
